@@ -1,0 +1,15 @@
+---
+lockfile_version: 1
+depends:
+- name: linux-baseline
+  resolved_source:
+    compliance: delivery/linux-baseline
+    url: https://ec2-52-26-226-159.us-west-2.compute.amazonaws.com/compliance/profiles/delivery/linux-baseline/tar
+    sha256: a43f09a97b91aebdb96aa6a19f3a35298e618552099cb69d4acb69d27b472498
+  version_constraints: []
+- name: ssh-baseline
+  resolved_source:
+    compliance: delivery/ssh-baseline
+    url: https://ec2-52-26-226-159.us-west-2.compute.amazonaws.com/compliance/profiles/delivery/ssh-baseline/tar
+    sha256: 1dacdb8f3855c1df37f13b190912c7aca24a1a8ae2d19142c5243cdeb3a212aa
+  version_constraints: []

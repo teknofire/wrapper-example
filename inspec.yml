@@ -1,0 +1,13 @@
+name: wrapper-example
+title: Profile Inheritance Example
+maintainer: Adam Leff
+copyright: Chef Software, Inc.
+copyright_email: adamleff@chef.io
+license: Apache-2.0
+summary: Test wrapper profile
+version: 0.1.4
+depends:
+- name: linux-baseline
+  compliance: delivery/linux-baseline
+- name: ssh-baseline
+  compliance: delivery/ssh-baseline
